@@ -1,0 +1,149 @@
+*{
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow-y: scroll;
+}
+@font-face {
+  font-family: "Raleway";
+  src: url(../fonts/raleway/static/Raleway-Bold.ttf);
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url(../fonts/Open_Sans/static/OpenSans/OpenSans-Regular.ttf);
+}
+.beforeYouTravel{
+  background-color: #ffc7c7;
+}
+.importantFacts{
+  font-family: "Raleway", sans-serif;
+  color: #681a1e;
+  font-size: 30px;
+  font-weight: 400;
+}
+h2.factsInCount{
+    color: #681a1e;
+    font-size: 1.4rem;
+}
+.title{
+  font-family: "Raleway", sans-serif;
+  color: #681a1e;
+  font-size: 1.4rem
+}
+ul li a{
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.textStyle {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+
+/*----------------------------------------------------------------
+#Important Facts to consider
+----------------------------------------------------------------*/
+ul.factsToTakeInCount{
+    text-decoration: none;
+    list-style: none;
+  }
+  ul.factsToTakeInCount li a{
+    text-decoration:none;
+    color: black;
+    cursor: pointer;
+    margin-left: 0px;
+  }
+  .homepage a{
+    color: black;
+    font-size: 1rem;
+    text-decoration: none;
+  }
+  button{
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 12px;
+    background-color: orange;
+    border: 1px solid orange;
+  }
+  .transportPart li a{
+    text-decoration: none;
+    color: black;
+  }
+  .recommendedHospitals li a{
+    text-decoration: none;
+    color: black;
+  }
+  /*----------------------------------------------------------------
+    RESPONSIVE*--------------------------------------------------*/
+    @media(max-width: 414px){
+      header h1#importantFacts{
+        font-size: 1.4rem;
+        text-align: center;
+      } 
+      header h2.title{
+        font-size: 1.2rem;
+        text-align: center;
+      } 
+      h2.factsInCount{
+        font-size: 1.4rem;
+        color: #681a1e;
+      }
+    ul.factsToTakeInCount{    
+      padding-left: 0px;
+      padding-right: 0px;
+      margin-left: 0px;
+      margin-right: 0px;
+      }
+      h2.title{
+        font-size: 1.4rem;
+      }
+      p.textStyle{
+        margin-left: 0px;
+        padding-left: 0px;
+        margin-right: 0px;
+        padding-right: 0px;
+      }
+      ul.textStyle{
+        margin-left: 2px;
+        margin-right: 2px;
+        padding-left: 2px;
+      }
+      img.mx-auto.rounded.bills{
+        width: 400px;
+      }
+    }
+    @media(max-width:768px){
+      h2.factsInCount{
+        font-size: 1.4rem;
+        color: #681a1e;
+      }
+      div.currency-pictures img{
+        width: 350px;
+      }
+    }
+    @media(max-width:912px){
+      h2.factsInCount{
+        font-size: 1.4rem;
+        color: #681a1e;
+      }
+      div.currency-pictures img{
+        width: 350px;
+      }
+    }
+    @media(max-width:1024px){
+      h2.factsInCount{
+        font-size: 1.4rem;
+        color: #681a1e;
+      }
+    }
+    @media(max-width:1280px){
+      h2.factsInCount{
+        font-size: 1.4rem;
+        color: #681a1e;
+      }
+    }
